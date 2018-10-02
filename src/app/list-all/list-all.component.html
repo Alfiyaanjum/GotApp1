@@ -29,7 +29,7 @@
           </div>  
           
           <div *ngIf="name.isbn"  class="card text-center book" >
-                <img src="src/assets/books.jpg" style="width: 100%;">
+                <img src="assets/books.jpg" style="width: 100%;">
               <div><i class="fa fa-book"></i><h4>{{name.name }}</h4></div>
               <div *ngIf="name.isbn!=''">ISBN : {{name.isbn}}</div>
               <div *ngIf="name.authors!=''">Authors : {{name.authors}}</div>
@@ -39,7 +39,7 @@
           </div> 
 
           <div *ngIf="name.region" class="card text-center house" >
-                <img src="src/assets/houses.jpg" >
+                <img src="assets/houses.jpg" >
               <div><i class="fa fa-home"></i><h4>{{name.name}}</h4></div>
               <div *ngIf="name.coatOfArms!=''">Coat of Arms : {{name.coatOfArms}}</div>
               <div *ngIf="name.region!=''">Region : {{name.region}}</div>
